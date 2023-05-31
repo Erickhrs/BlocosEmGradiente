@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GRADIENT</title>
+</head>
+
+<body>
+    <div id="containerleft">
+        <p id="bxl" onclick="closel()">&#10060;</p>
+        <h1>EDITAR</h1>
+        <form id="containerdirection">
+            <p id="subtitle">DIRECTIONS&#129517;</p>
+            <table>
+
+                <tr>
+                    <td>
+                        <input class = "checksl" type="checkbox" name="totop" id="to-top">
+                        <label for="to-top">To Top</label>
+                    </td>
+                    <td>
+                        <input class = "checksl" type="checkbox" name="tobottom" id="to-bottom">
+                        <label for="to-bottom">To Bottom</label>
+                    </td>
+                    <td>
+                        <input class = "checksl"type="checkbox" name="toleft" id="to-left">
+                        <label for="to-left">To Left</label>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class = "checksl"type="checkbox" name="toright" id="to-right">
+                        <label for="to-right">To Right</label>
+                    </td>
+                    <td>
+                        <input class = "checksl"type="checkbox" name="topleft" id="to top-left">
+                        <label for="top-left">Top Left</label>
+                    </td>
+                    <td>
+                        <input class = "checksl"type="checkbox" name="top" id="to top">
+                        <label for="top">Top</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class = "checksl"type="checkbox" name="topright" id="to top-right">
+                        <label for="top-right">Top Right</label>
+                    </td>
+                    <td>
+                        <input class = "checksl"type="checkbox" name="left" id="to-left">
+                        <label for="left">Left</label>
+                    </td>
+                    <td>
+                        <input class = "checksl"type="checkbox" name="right" id="to-right">
+                        <label for="right">Right</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class = "checksl"type="checkbox" name="bottomleft" id="to bottom-left">
+                        <label for="bottom-left">Bottom Left</label>
+                    </td>
+                    <td>
+                        <input class = "checksl"type="checkbox" name="bottomtoright" id="to-bottom-right">
+                        <label for="bottom-to-right">Bottom to Right</label>
+                    </td>
+                    <td>
+                        <input class = "checksl"type="checkbox" name="bottomright" id="to-bottom-right">
+                        <label for="bottom-right">Bottom Right</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class = "checksl"type="checkbox" name="toptoleft" id="to top left">
+                        <label for="top-to-left">Top to Left</label>
+                    </td>
+                    <td>
+                        <input class = "checksl"type="checkbox" name="bottomtoleft" id="to bottom left">
+                        <label for="bottom-to-left">Bottom to Left</label>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <DIV id="containercolors">
+            <p id="subtitle">COLORS&#127912;</p>
+            <table>
+                <tr>
+                    <td>
+                        <label for="">START: </label>
+                        <input type="color" id="color1" class="incolorsl">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">FINISH: </label>
+                        <input type="color" id="color2"class="incolorsl">
+                    </td>
+                </tr>
+            </table>
+
+
+        </DIV>
+
+    </div>
+
+
+    <DIV id="containerblocks">
+        <div id="block1" onclick="openeditl()" onmouseover="showtextblockl()" onmouseout="dntshowtextblockl()"><span id="blocktext1" class="blocktext">EDITAR</span></div>
+        <div id="block2" onclick="openeditr()" onmouseover="showtextblockr()" onmouseout="dntshowtextblockr()"><span id="blocktext2" class="blocktext">EDITAR</span></div>
+    </DIV>
+
+
+
+
+
+
+
+
+
+
+    <div id="containerright">
+        <p id="bxr" onclick="closer()">&#10060;</p>
+        <h1>EDITAR</h1>
+        <form id="containerdirection">
+            <p id="subtitle">DIRECTIONS&#129517;</p>
+            <table>
+                <tr>
+                    <td>
+                        <input class="checksr" type="checkbox" name="circle" id="circle">
+                        <label for="circle">circle</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input class="checksr" type="checkbox" name="ellipse" id="at-center-Top">
+                        <label for="ellipse">at center Top</label> 
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input class="checksr" type="checkbox" name="closest-corner" id="at-center-left">
+                        <label for="at-center-left">at center left</label> 
+                    </td>
+                </tr>
+            </table>
+            <DIV id="containercolors">
+                <p id="subtitle">COLORS&#127912;</p>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="">START: </label>
+                            <input class="incolorsr" type="color" id="color1r">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">FINISH: </label>
+                            <input class="incolorsr" type="color" id="color2r">
+                        </td>
+                    </tr>
+                </table>
+
+        </form>
+    </div>
+
+
+
+
+
+
+
+    <script src="/main.js"></script>
+</body>
+
+</html>

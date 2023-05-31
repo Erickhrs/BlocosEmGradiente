@@ -1,0 +1,126 @@
+#block1 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(18, 118, 206);
+    border-radius: 10px;
+    cursor: pointer;
+    background-image: none;
+}
+#block1:hover {
+    background-color: rgb(224, 224, 224);
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+    filter:blur(1px);
+}
+
+#block2 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(206, 18, 18);
+    border-radius: 10px;
+    margin: 1px;
+    cursor: pointer;
+}
+#block2:hover {
+    background-color: rgb(224, 224, 224);
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+    filter:blur(1px);
+}
+
+#containerblocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    box-shadow: 0px 0px 20px 0px black;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+  #containerleft{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(47, 49, 49);
+    width: 250px;
+    height: 627px;
+    display: none;
+  }
+  #containerleft h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    color: aliceblue;
+  }
+  
+  #containerright{
+    position: absolute;
+    top: 0px;
+    left: 1068px;
+    background-color: rgb(47, 49, 49);
+    width: 250px;
+    height: 627px;
+    display: none;
+  }
+  body{
+    overflow: hidden;
+    background-image: linear-gradient(to right, rgb(194, 93, 93), rgb(122, 224, 219));
+  }
+  .blocktext{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 98px;
+    top: 120px;
+    text-align: center;
+    
+}
+#containerdirection{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 10px;
+  color: rgb(65, 66, 68);
+}
+
+td{
+  border: 1px solid black;
+  width: 25%;
+  border-radius: 10px;
+  padding: 3px;
+  background-color: rgb(188, 218, 158);
+  font-family:'Times New Roman', Times, serif;
+}
+#containercolors{
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(0, 0, 0);
+}
+#subtitle{
+  font-size: 20px;
+  color: aliceblue;
+  text-decoration: underline;
+  text-align: center;
+}
+#bxl{
+  position: absolute;
+  left: 225px;
+  bottom: 580px;
+  cursor: pointer;
+}
+#containerright h1{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+  color: aliceblue;
+}
+#bxr{
+  position: absolute;
+  bottom: 584px;
+  cursor: pointer;
+}
+#blocktext1{
+  display: none;
+}
+#blocktext2{
+  display: none;
+}
